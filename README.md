@@ -10,11 +10,11 @@ I am not responsible for any damage caused to your device.
 DO not PM me either asking you for help. 
 Bug reports are only to be accepted in this format:
 
-Bugreport [DATE GOES HERE] [TIME GOES HERE]
-ROM: [ROM NAME GOES HERE]
-Kernel: [KERNEL NAME GOES HERE]
-Bug: [BUG DESCRIPTION GOES HERE]
-Log: [LOG GOES HERE, WITHOUT THEM I WILL PROVIDE NO SUPPORT!]
+- Bugreport [DATE GOES HERE] [TIME GOES HERE]
+- ROM: [ROM NAME GOES HERE]
+- Kernel: [KERNEL NAME GOES HERE]
+- Bug: [BUG DESCRIPTION GOES HERE]
+- Log: [LOG GOES HERE, WITHOUT THEM I WILL PROVIDE NO SUPPORT!]
 
 ## Stable release:
 1. Dowload latest uLMK-props.zip from releases page
@@ -23,12 +23,17 @@ Log: [LOG GOES HERE, WITHOUT THEM I WILL PROVIDE NO SUPPORT!]
 3. MagiskManager -> Modules + Downloads/uLMK-props.zip -> Reboot
 
 ## release branch:
-1. git clone https://github.com/rk134/uLMK-props -b release
-2. cd uLMK-props
-3. git archive --output uLMK-props.zip HEAD
-4. adb push uLMK-props.zip /sdcard/
-5. Disable MagiskHide: MagiskManager -> Settings -> Magisk Hide
-6. MagiskManager -> Modules + uLMK-props.zip -> Reboot
+
+```
+git clone https://github.com/rk134/uLMK-props -b release
+cd uLMK-props
+git archive --output uLMK-props.zip HEAD
+adb push uLMK-props.zip /sdcard/
+
+```
+Then, 
+- Disable MagiskHide: MagiskManager -> Settings -> Magisk Hide
+- MagiskManager -> Modules + uLMK-props.zip -> Reboot
 
 ## Troubleshooting
 
@@ -43,8 +48,7 @@ How to unbrick:
 
 This means that adbd in your firmware is build without
 ALLOW_ADBD_ROOT. You can fix adb autostart either by
-installing evdenis' ADB ROOT module or disabling this module.
-["ADB Root"](https://github.com/evdenis/adb_root)
+installing evdenis' [ADB Root](https://github.com/evdenis/adb_root) module or disabling this module.
 
 
 ## Support
