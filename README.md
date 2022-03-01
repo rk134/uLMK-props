@@ -5,7 +5,7 @@ and in unwanted ways, and this could be due to the lack of uLMK props.
 
 ## How to install:
 
-!!--WARNING--!!
+## !!--WARNING--!!
 I am not responsible for any damage caused to your device.
 DO not PM me either asking you for help. 
 Bug reports are only to be accepted in this format:
@@ -16,13 +16,13 @@ Kernel: [KERNEL NAME GOES HERE]
 Bug: [BUG DESCRIPTION GOES HERE]
 Log: [LOG GOES HERE, WITHOUT THEM I WILL PROVIDE NO SUPPORT!]
 
-Stable release:
+## Stable release:
 1. Dowload latest uLMK-props.zip from releases page
    https://github.com/rk134/uLMK-props/releases
 2. Disable MagiskHide: MagiskManager -> Settings -> Magisk Hide
 3. MagiskManager -> Modules + Downloads/uLMK-props.zip -> Reboot
 
-Master branch:
+## release branch:
 1. git clone https://github.com/rk134/uLMK-props -b release
 2. cd uLMK-props
 3. git archive --output uLMK-props.zip HEAD
